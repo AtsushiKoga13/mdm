@@ -1,6 +1,14 @@
 @echo off
+:: 特定のディレクトリを設定
+set TARGET_DIR=C:
+
 :: テストファイルのパスを設定
-set TEST_FILE=%~dp0test_file.txt
+set TEST_FILE=%TARGET_DIR%\test_file.txt
+
+:: ディレクトリが存在するか確認し、存在しない場合は作成
+if not exist %TARGET_DIR% (
+    mkdir %TARGET_DIR%
+)
 
 :: テストファイルを作成
 echo This is a test file. > %TEST_FILE%

@@ -1,6 +1,6 @@
 @echo off
 :: 特定のディレクトリを設定
-set TARGET_DIR=C:
+set TARGET_DIR=C:¥Users
 
 :: テストファイルのパスを設定
 set TEST_FILE=%TARGET_DIR%\test_file.txt

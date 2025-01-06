@@ -1,6 +1,6 @@
 @echo off
 :: 作成するディレクトリのパスを指定
-set TARGET_DIR=C:\Users\Atsushi Koga\Documents
+set TARGET_DIR=C:\Users\CEPTEST001\Documents
 
 :: 作成するテストファイルの名前
 set TEST_FILE=testfile.txt
